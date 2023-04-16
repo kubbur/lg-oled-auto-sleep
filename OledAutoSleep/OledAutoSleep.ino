@@ -12,11 +12,10 @@ const char* ssid = "SSID";
 const char* password = "PASSWORD";
 String haToken = "HOMEASSISTANTTOKEN";
 const int motionPin1 = 13;
-const int motionPin2 = 15; //Not Used
 
 const char* ntpServer = "pool.ntp.org";
-const long  gmtOffset_sec = -5*60*60; // UTC -5 Timezone
-const int   daylightOffset_sec = 3600;
+const long  gmtOffset_sec = 0*60*60; // Timezone in "hr or -hr
+const int   daylightOffset_sec = 0; // in "sec" 
 
 #define BUTTON_1            35
 #define BUTTON_2            0
