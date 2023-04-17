@@ -19,3 +19,19 @@ GND     <-> GND
 GPIO 13 (Configurable)     <-> OUT  
 
 ![](images/OLED_Auto_Sleep_Wiring.jpg)
+
+
+Arduino IDE
+in preferences > File
+paste in additional board  https://dl.espressif.com/dl/package_esp32_index.json 
+in board side panel get esp32 platform
+
+in library manager on the side panel
+search for "tft _espi" by Bodmer and install
+search for "Button2" by Lennart Hennings
+
+open C:\Users\kubbur\Documents\Arduino\libraries\TFT_eSPI\User_Setup_Select.h
+
+comment //#include <User_Setup.h>  
+uncomment #include <User_Setups/Setup25_TTGO_T_Display.h>
+
