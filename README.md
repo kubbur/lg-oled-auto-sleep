@@ -22,6 +22,7 @@ GPIO 13 (Configurable)     <-> OUT
 
 
 Arduino IDE
+
 in preferences > File
 paste in additional board  https://dl.espressif.com/dl/package_esp32_index.json 
 in board side panel get esp32 platform
